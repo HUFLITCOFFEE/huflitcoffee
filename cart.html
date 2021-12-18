@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The HUFLIT Coffee</title>
+    <!-- Link thêm logo, icon -->
+    <link rel="icon" href="./images/HUFLIT Coffee.png">
+    <!-- Link thêm icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- CSS link  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Responsive link -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <!-- header section starts  -->
+
+    <header class="header navbar-fixed-top">
+
+        <a href="index.html" class="logo">
+            <img src="./images/HUFLIT Coffee.png" alt="">
+        </a>
+    
+        <nav class="navbar">
+            <a href="./index.html">Trang chủ</a>
+            <a href="./about.html">Về chúng tôi</a>
+            
+            <a href="./product.html">Thực Đơn</a>
+            <a href="./contact.html">cửa hàng</a>
+            <a href="./news.html">tin tức</a>
+            <a href="./gallery.html">thư viện ảnh</a>
+        </nav>
+    
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+    
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Tìm kiếm tại đây...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-1.png" alt="">
+                <div class="content">
+                    <h3>Cà phê 01</h3>
+                    <div class="price">30.000đ/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-2.png" alt="">
+                <div class="content">
+                    <h3>Cà phê 02</h3>
+                    <div class="price">30.000đ/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-3.png" alt="">
+                <div class="content">
+                    <h3>Cà phê 03</h3>
+                    <div class="price">30.000đ/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-4.png" alt="">
+                <div class="content">
+                    <h3>Cà phê 04</h3>
+                    <div class="price">30.000đ/-</div>
+                </div>
+            </div>
+            <a href="./cart.html" class="btn">mua ngay</a>
+        </div>
+    
+    </header>
+
+<div class="cart-page">
+    <table>
+        <tr>
+            <th>Sản phẩm</th>
+            <th>Số lượng</th>
+            <th>Giá</th>
+        </tr>
+ 
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <a href="./product-item.html"><img src="./images/ca-phe-viet-full.jpg"></a>
+                    <div>
+                        <a href="./product-item.html"><p style="color: #eee;">Nescafe Cà Phê Việt</p></a>
+                        <small>Giá: 49.000đ</small><br>
+                        <a href="">Xóa</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1" min="1"></td>
+            <td>49.000đ</td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="./images/cart-item-1.png">
+                    <div>
+                        <p>Cà phê 1</p>
+                        <small>Giá: 30.000đ</small><br>
+                        <a href="">Xóa</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1" min="1"></td>
+            <td>30.000đ</td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="./images/cart-item-2.png">
+                    <div>
+                        <p>Cà phê 2</p>
+                        <small>Giá: 30.000đ</small><br>
+                        <a href="">Xóa</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1" min="1"></td>
+            <td>30.000đ</td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="./images/cart-item-3.png">
+                    <div>
+                        <p>Cà phê 3</p>
+                        <small>Giá: 30.000đ</small><br>
+                        <a href="">Xóa</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1" min="1"></td>
+            <td>30.000đ</td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="./images/cart-item-4.png">
+                    <div>
+                        <p>Cà phê 4</p>
+                        <small>Giá: 30.000đ</small><br>
+                        <a href="">Xóa</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1" min="1"></td>
+            <td>30.000đ</td>
+        </tr>
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Tổng tiền</td>
+                <td>169.000đ</td>
+            </tr>
+            <tr>
+                <td>Thuế</td>
+                <td>17.000đ</td>
+            </tr>
+            <tr>
+                <td>Thanh toán</td>
+                <td>186.000đ</td>
+            </tr>
+            
+        </table>
+    </div>
+    <div class="total-price">
+        <a href="#" class="btn">Thanh toán &#8594;</a>
+    </div>
+</div>
+
+<!-- footer section starts  -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <ul class="footer__list">
+                <div class="footer__title">
+                    Chăm sóc khách hàng
+                </div>
+                <li class="footer__item"><a href="https://huflit.edu.vn/">Trung tâm trợ giúp</a></li>
+                <li class="footer__item"><a href="https://huflit.edu.vn/">Hướng dẫn mua hàng</a></li>
+                <li class="footer__item"><a href="https://huflit.edu.vn/">Thanh toán</a></li>
+                <li class="footer__item"><a href="https://huflit.edu.vn/">Vận chuyển</a></li>
+                <li class="footer__item"><a href="https://huflit.edu.vn/">Chăm sóc khách hàng</a></li>
+                <li class="footer__item"><a href="https://huflit.edu.vn/">Chính sách bảo hành</a></li>
+
+            </ul>
+        </div>
+
+        <div class="box">
+            <ul class="footer__list">
+                <div class="footer__title">
+                    Về HUFLIT Coffee
+                </div>
+                <li class="footer__item"><a href="https://huflit.edu.vn/">Giới thiệu về HUFLIT Coffee</a></li>
+                <li class="footer__item"><a href="https://huflit.edu.vn/">Tuyển dụng</a></li>
+                <li class="footer__item"><a href="https://huflit.edu.vn/">Điều khoản</a></li>
+                <li class="footer__item"><a href="https://huflit.edu.vn/">Chính sách bảo mật</a></li>
+                <li class="footer__item"><a href="https://huflit.edu.vn/">Chính hãng</a></li>
+                <li class="footer__item"><a href="https://huflit.edu.vn/">Flash Sales</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul class="footer__list">
+                <div class="footer__title">
+                    Theo dõi chúng tôi trên
+                </div>
+                <li class="footer__item"><i class="fab fa-facebook-f"></i><a href="https://huflit.edu.vn/">facebook</a></li>
+                <li class="footer__item"><i class="fab fa-twitter"></i><a href="https://huflit.edu.vn/">twitter</a></li>     
+                <li class="footer__item"><i class="fab fa-instagram"></i><a href="https://huflit.edu.vn/">instagram</a></li>
+                <li class="footer__item"><i class="fab fa-youtube"></i><a href="https://huflit.edu.vn/">youtube</a></li>
+                <li class="footer__item"><i class="fab fa-linkedin"></i><a href="https://huflit.edu.vn/">linkedin</a></li>
+            </ul>
+        </div>
+        
+    </div>
+</section>
+<div class="credit">&copy;HUFLIT Coffee | all rights reserved</div>
+
+
+
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</body>
+</html>
