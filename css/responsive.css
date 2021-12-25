@@ -462,14 +462,14 @@
 }
 
 
-@media (min-width:1344px) and (max-width:1600px) {
+@media (min-width:1344px) and (max-width:1440px) {
     /* .product-item__image {
         width: 400px !important;
     } */
 
     .products .box-container{
         
-        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)) !important;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)) ;
         
         
         
